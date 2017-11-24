@@ -8,7 +8,7 @@ export default (value, [invalidateFalse = false] = []) => {
     return false;
   }
 
-  if (value === undefined || value === null) {
+  if (value === undefined || value === null || value === false) {
     return false;
   }
 
